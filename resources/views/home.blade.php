@@ -10,5 +10,8 @@
 </head>
 <body>
     <h1>Home Page of Edu One</h1>
+
+
+    <script src="js/app.js"></script>
 </body>
 </html>
