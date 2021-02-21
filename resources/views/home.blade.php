@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/app.css">
-    <link rel="stylesheet" type="text/css" href="../css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost/EduOne/resources/css/mobile.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Google Fonts -->
@@ -78,62 +78,7 @@
             <!--Tab Panel-->
             <div class="tab-content">
                 <div id="explore" class="container tab-pane active">
-                    <!--Trending videos-->
-                    <h3>Trending Videos</h3>
-                    <!--Trending slide nav-->
-                    <h2>Trending slides</h2>
-                    <div id="carousel-thumbs" class="carousel slide" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row mx-0">
-                                    <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
-                                       <img src="https://source.unsplash.com/Pn6iimgM-wo/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                    <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
-                                        <img src="https://source.unsplash.com/tXqVe7oO-go/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                    <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
-                                        <img src="https://source.unsplash.com/qlYQb7B9vog/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                    <div id="carousel-selector-3" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
-                                        <img src="https://source.unsplash.com/QfEfkWk1Uhk/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                    <div id="carousel-selector-4" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="4">
-                                        <img src="https://source.unsplash.com/CSIcgaLiFO0/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                    <div id="carousel-selector-5" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="5">
-                                        <img src="https://source.unsplash.com/a_xa7RUKzdc/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row mx-0">
-                                    <div id="carousel-selector-6" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="6">
-                                        <img src="https://source.unsplash.com/uanoYn1AmPs/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                    <div id="carousel-selector-7" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="7">
-                                        <img src="https://source.unsplash.com/_snqARKTgoc/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                    <div id="carousel-selector-8" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="8">
-                                        <img src="https://source.unsplash.com/M9F8VR0jEPM/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                    <div id="carousel-selector-9" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="9">
-                                        <img src="https://source.unsplash.com/Q1p7bh3SHj8/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                    <div class="col-2 px-1 py-2"></div>
-                                    <div class="col-2 px-1 py-2"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
-                            <span class="fa fa-angle-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
-                            <span class="fa fa-angle-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div> 
+                   
                 </div>
                 <div id="board" class="container tab-pane fade">
                     <h2>Board</h2>
@@ -163,19 +108,19 @@
     <section class="first">
     <div class="container-fluid content">
         <!--carousel-->
-        <!--<div class="container-fluid rounded shadow p-0" style="margin-top:90px;">
+        <div class="container-fluid rounded shadow p-0" style="margin-top:90px;">
             <div class="carousel slide" id="homeCarousel" data-ride="carousel" data-interval="3000" data-keyboard="true">
-                <!--carousel indicator--
+                <!--carousel indicator-->
                 <ul class="carousel-indicators">
                     <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#homeCarousel" data-slide-to="1"></li>
                     <li data-target="#homeCarousel" data-slide-to="2"></li>
                 </ul>
             
-                <!--carousel-inner-content--
+                <!--carousel-inner-content-->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/1.jpg" class="img-fluid rounded" style="position: relative;"/>
+                        <img src="http://localhost/EduOne/resources/img/1.jpg" class="img-fluid rounded" style="position: relative;"/>
                         <div class="carousel-caption">
                             <div class="container justify-content-center">
                             <button class="btn btn-primary btn-sm">click here</button>
@@ -184,7 +129,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/2.png" class="img-fluid rounded" style="position: relative;">
+                        <img src="http://localhost/EduOne/resources/img/2.png" class="img-fluid rounded" style="position: relative;">
                         <div class="carousel-caption">
                             <div class="container justify-content-center text-dark w-50 float-left">
                                 <h3 class="text-lg">Get Benefits of Offers</h3>
@@ -201,7 +146,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/3.jpg" class="img-fluid rounded" style="position: relative;">
+                        <img src="http://localhost/EduOne/resources/img/3.jpg" class="img-fluid rounded" style="position: relative;">
                         <div class="carousel-caption">
                             <div class="container justify-content-center">
                                 <button class="btn btn-primary btn-sm">click here</button>
@@ -211,107 +156,12 @@
                         
                     </div>
                 </div>
-                <!--left and right arrow button--
+                <!--left and right arrow button-->
                 <a href="#homeCarousel" class="carousel-control-prev text-primary" data-slide="prev"><span class="fa fa-angle-left" style="font-size:30px;"></span></a>
                 <a href="#homeCarousel" class="carousel-control-next text-primary" data-slide="next"><span class="fa fa-angle-right" style="font-size:30px;"></span></a>
         
             </div>
-        </div>-->
-                    <div class="carousel-container position-relative row copy" style="margin-top:90px;">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1500">
-                           <div class="carousel-inner">
-                                <div class="carousel-item active" data-slide-number="0">
-                                    <img src="https://source.unsplash.com/Pn6iimgM-wo/1600x500/" class="d-block w-100 position-relative"  data-type="video" data-toggle="lightbox" data-gallery="example-gallery">
-                                    <div class="carousel-caption bg-dark w-25" style="position:absolute;left:0;bottom:0;height:100%;">
-                                        <span class="display-3">Put Your Content Here</span>
-                                        <br>
-                                        <button class="btn btn-primary">click me</button>
-                                    </div>
-                                </div>
-                                <div class="carousel-item" data-slide-number="1">
-                                    <img src="https://source.unsplash.com/tXqVe7oO-go/1600x500/" class="d-block w-100"  data-type="video" data-toggle="lightbox" data-gallery="example-gallery">
-                                    <div class="carousel-caption">
-                                        <span class="display-4 ml-0">Put Your Content Here</span>
-                                    </div>
-                                </div>
-                                <div class="carousel-item" data-slide-number="2">
-                                    <img src="https://source.unsplash.com/qlYQb7B9vog/1600x500/" class="d-block w-100"  data-type="video" data-toggle="lightbox" data-gallery="example-gallery">
-                                </div>
-                                <div class="carousel-item" data-slide-number="3">
-                                    <img src="https://source.unsplash.com/QfEfkWk1Uhk/1600x500/" class="d-block w-100"  data-type="video" data-toggle="lightbox" data-gallery="example-gallery">
-                                </div>
-                                <div class="carousel-item" data-slide-number="4">
-                                    <img src="https://source.unsplash.com/CSIcgaLiFO0/1600x500/" class="d-block w-100"  data-type="video" data-toggle="lightbox" data-gallery="example-gallery">
-                                </div>
-                                <div class="carousel-item" data-slide-number="5">
-                                    <img src="https://source.unsplash.com/a_xa7RUKzdc/1600x500/" class="d-block w-100"  data-type="video" data-toggle="lightbox" data-gallery="example-gallery">
-                                </div>
-                                <div class="carousel-item" data-slide-number="6">
-                                    <img src="https://source.unsplash.com/uanoYn1AmPs/1600x500/" class="d-block w-100" data-type="video" data-toggle="lightbox" data-gallery="example-gallery">
-                                </div>
-                                <div class="carousel-item" data-slide-number="7">
-                                    <img src="https://source.unsplash.com/_snqARKTgoc/1600x500/" class="d-block w-100" data-type="video" data-toggle="lightbox" data-gallery="example-gallery">
-                                </div>
-                                <div class="carousel-item" data-slide-number="8">
-                                    <img src="https://source.unsplash.com/M9F8VR0jEPM/1600x500/" class="d-block w-100" data-type="video" data-toggle="lightbox" data-gallery="example-gallery">
-                                </div>
-                                <div class="carousel-item" data-slide-number="9">
-                                    <img src="https://source.unsplash.com/Q1p7bh3SHj8/1600x500/" class="d-block w-100" data-type="video" data-toggle="lightbox" data-gallery="example-gallery">
-                                </div>
-                            </div>
-                        </div>
-                        <div id="home-carousel-thumbs" class="carousel slide" data-ride="carousel" data-interval="false">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row mx-0">
-                                        <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
-                                       <img src="https://source.unsplash.com/Pn6iimgM-wo/600x400/" class="img-fluid" alt="...">
-                                        </div>
-                                        <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
-                                        <img src="https://source.unsplash.com/tXqVe7oO-go/600x400/" class="img-fluid" alt="...">
-                                        </div>
-                                        <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
-                                            <img src="https://source.unsplash.com/qlYQb7B9vog/600x400/" class="img-fluid" alt="...">
-                                        </div>
-                                        <div id="carousel-selector-3" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
-                                            <img src="https://source.unsplash.com/QfEfkWk1Uhk/1600x900/" class="img-fluid" alt="...">
-                                        </div>
-                                        <div id="carousel-selector-4" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="4">
-                                            <img src="https://source.unsplash.com/CSIcgaLiFO0/600x400/" class="img-fluid" alt="...">
-                                        </div>
-                                        <div id="carousel-selector-5" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="5">
-                                            <img src="https://source.unsplash.com/a_xa7RUKzdc/600x400/" class="img-fluid" alt="...">
-                                        </div>
-                                    </div>
-                                </div>
-                            <div class="carousel-item">
-                                <div class="row mx-0">
-                                    <div id="carousel-selector-6" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="6">
-                                        <img src="https://source.unsplash.com/uanoYn1AmPs/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                    <div id="carousel-selector-7" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="7">
-                                        <img src="https://source.unsplash.com/_snqARKTgoc/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                    <div id="carousel-selector-8" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="8">
-                                        <img src="https://source.unsplash.com/M9F8VR0jEPM/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                    <div id="carousel-selector-9" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="9">
-                                        <img src="https://source.unsplash.com/Q1p7bh3SHj8/600x400/" class="img-fluid" alt="...">
-                                    </div>
-                                    <div class="col-2 px-1 py-2"></div>
-                                    <div class="col-2 px-1 py-2"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#home-carousel-thumbs" role="button" data-slide="prev">
-                            <span class="fa fa-angle-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#home-carousel-thumbs" role="button" data-slide="next">
-                            <span class="fa fa-angle-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>        
+        </div>
     </div>
     </section><!--section 1 end-->
     <!--content-tray-->
