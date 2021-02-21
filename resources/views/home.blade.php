@@ -37,14 +37,10 @@
         <!--Company Logo-->
         <a href="#" class="navbar-brand mx-auto text-decoration-none text-muted" id="logo" ><strong>EduOne</strong></a>
         <!--search_bar-->
-            <div class="input-group w-50 mx-auto shadow-sm" id="search_bar" style="display:none;">
-                
-                <div class="input-group-prepend">
-                    <span class="input-group-text border-primary"><i class="fa fa-search"></i></span>
-                </div>
-                <input type="search" id="search" class="form-control p-4 border-primary" placeholder="search here..."/>
-                <div class="input-group-append input-group-btn p-0">
-                    <button class="btn btn-primary border rounded-sm-right border-primary shadow-none m-0">go</button>
+            <div class="input-group w-50 mx-auto" id="search_bar" style="display:none;">
+                <input type="search" id="search" class="w-50" placeholder="search here..."/>
+                <div class="input-group-append">
+                    <span class="bg-none border-none" style="border-bottom:1px solid #111;cursor:pointer;"><i class="fa fa-search"></i></span>
                 </div>
             </div>
         <!--search_btn-->
@@ -57,22 +53,24 @@
 </header>
     <!--This part opens on click nav_btn-->
     <div class="container-fluid nav_container">
-        <span class="close">&times;</span>
         <div class="container border border-top-0 shadow" id="nav_slide">
-            <div class="main_menu">
+        <span class="close float-left mt-5 ml-5" id="close_nav_slide"><i class="fa fa-long-arrow-alt-left"></i></span>
+        <span class="close mt-3" id="close_nav_slide_mobile">&times;</span>
+            <div class="main_menu mx-auto mt-5">
             <!--navigation tab-->
-            <ul class="nav nav-tabs" role="tablist">
+            <!--use flex-column for vertical-pills-->
+            <ul class="nav nav-pills" role="tablist">
                 <li class="nav-item w-25">
-                    <a class="nav-link active text-center" data-toggle="tab" href="#explore">Explore</a>
+                    <a class="nav-link active text-center" data-toggle="pill" href="#explore">Explore</a>
                 </li>
                 <li class="nav-item w-25 text-center">
-                    <a class="nav-link" data-toggle="tab" href="#board">Board</a>
+                    <a class="nav-link" data-toggle="pill" href="#board">Board</a>
                 </li>
                 <li class="nav-item w-25 text-center">
-                    <a class="nav-link" data-toggle="tab" href="#collection">Collection</a>
+                    <a class="nav-link" data-toggle="pill" href="#collection">Collection</a>
                 </li>
                 <li class="nav-item w-25 text-center">
-                    <a class="nav-link" data-toggle="tab" href="#profile">Profile</a>
+                    <a class="nav-link" data-toggle="pill" href="#profile">Profile</a>
                 </li>
             </ul>
             <!--Tab Panel-->
@@ -109,7 +107,7 @@
     <div class="container-fluid content">
         <!--carousel-->
         <div class="container-fluid rounded shadow p-0" style="margin-top:90px;">
-            <div class="carousel slide" id="homeCarousel" data-ride="carousel" data-interval="3000" data-keyboard="true">
+            <div class="carousel slide carousel-fade" id="homeCarousel" data-ride="carousel" data-interval="3000" data-keyboard="true">
                 <!--carousel indicator-->
                 <ul class="carousel-indicators">
                     <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
@@ -183,11 +181,11 @@
     <section class="fourth">
         <div class="container-fluid content">
 <!--footer-->
-<footer class="container-fluid" style="bottom:0;">
+<footer class="container-fluid copy" style="bottom:0;">
     <!--grid-container-->
-    <div class="row w-100 copy">
+    <div class="row w-100">
         
-        <div class="col-4 text-center">
+        <div class="col-4 col-auto text-center">
             <!--footer-section-1-->
             <!--About us-->
             <div class="mb-4">
@@ -248,7 +246,7 @@
         </div>
 
         <!--column-2>-->
-        <div class="col-4 text-center">
+        <div class="col-4 col-auto text-center">
             <!--footer-section-1-->
             <div>
                 <strong>EduOne</strong>
@@ -260,7 +258,7 @@
         </div>
 
         <!--footer column 3-->
-        <div class="col-4 text-center">
+        <div class="col-4 col-auto text-center">
             <!--footer-section-1-->
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1s8nQgBOm-A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
