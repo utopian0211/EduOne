@@ -272,8 +272,8 @@ section {
 }
 
 section.first {
+    background: whitesmoke;
     /*background: linear-gradient(rgba(166, 171, 173, 0.85), rgba(69, 73, 75, 0.85));*/
-    background: rgb(243, 240, 240);
 }
 
 section.first .content {
@@ -282,8 +282,8 @@ section.first .content {
 }
 
 section.second {
-   /* background: linear-gradient(rgba(26, 27, 27, 0.85), rgba(16, 22, 21, 0.85));*/
-   background: #111;
+    background: #111;
+    /*background: linear-gradient(rgba(26, 27, 27, 0.85), rgba(16, 22, 21, 0.85));*/
 }
 
 section.second .content {
@@ -294,8 +294,8 @@ section.second .content {
 }
 
 section.third {
-   /* background: linear-gradient(rgba(69, 72, 73, 0.85), rgba(5, 123, 188, .85));*/
-   background: rgb(243, 240, 240);
+    background: whitesmoke;
+    /*background: linear-gradient(rgba(69, 72, 73, 0.85), rgba(5, 123, 188, .85));*/
 }
 
 section.third .content {
@@ -303,8 +303,8 @@ section.third .content {
 }
 
 section.fourth {
-    /*background: linear-gradient(rgba(12, 12, 12, 0.85), rgba(70, 71, 66, 0.85));*/
     background: #111;
+    /*background: linear-gradient(rgba(12, 12, 12, 0.85), rgba(70, 71, 66, 0.85));*/
 }
 
 section.fourth .content {
