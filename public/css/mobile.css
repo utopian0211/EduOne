@@ -1,22 +1,13 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 
 @media screen and (max-width: 575.98px) {
-    .MenuItem {
-        font-size: 1.1rem;
-    }
-    .explore {
-        display: none;
-    }
-    .nav_button {
-        margin-right: 6%;
-    }
+    
 }
 
 
 /* Small devices (landscape phones, less than 768px)*/
 
 @media (max-width: 767.98px) {
-   
     #nav_slide {
         width: 100%;
     }
@@ -32,6 +23,7 @@
     #close_nav_slide_mobile {
         display: block;
     }
+
     .MenuItem {
         font-size: 1.1rem;
     }
@@ -85,9 +77,6 @@
     }
     img {
         height: 150px;
-    }
-    #main_menu {
-        width: 100%;
     }
 }
 
